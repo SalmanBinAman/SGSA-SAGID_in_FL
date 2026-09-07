@@ -1,7 +1,7 @@
 ================================================================================
 #  SGSA  vs  SAGID  v2.1  —  Federated Learning attack / defense
 --------------------------------------------------------------------------------
-Abstract - Federated learning (FL) is a machine learning technique whcih trains an artificial intelligence model across multiple devices
+Federated learning (FL) is a machine learning technique whcih trains an artificial intelligence model across multiple devices
 or servers. This technique allows many clients to train a shared model collaboratively, but does not expose private data. However,
 the server’s inability to inspect client updates makes it vulnerable to adversarial participants. Communication-efficient FL transmits
 only the top-k most significant gradient coordinates, yet the security implications of this gradient-selection step have received little
